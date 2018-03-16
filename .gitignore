@@ -1,0 +1,31 @@
+*.iml
+.gradle
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/.idea/misc.xml
+/.idea/modules.xml
+/. gradle/wrapper/gradle-wrapper.properties
+/.local.properties
+/.idea
+/.idea/misc.xml
+app/app-prod-release.apk
+local.properties
+app/prod/
+.firebaserc
+firebase.json
+functions/
+functions/node_modules
+serc
+.firebaserc
+node_modules/
+ /gradle.properties
+ /gradle/
+        gradlew
+        gradlew.bat
+        settings.gradle
+
+
