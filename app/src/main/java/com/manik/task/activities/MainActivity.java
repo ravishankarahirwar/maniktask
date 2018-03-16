@@ -21,8 +21,6 @@ import com.manik.task.managers.ContactManager;
 import com.manik.task.model.Contact;
 import com.manik.task.ui.adapter.ContactListAdapter;
 
-import java.util.List;
-
 /**
  * @author Ravishankar
  * @version 1.0
@@ -36,7 +34,7 @@ public class MainActivity extends BaseActivity  implements NavigationView.OnNavi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
