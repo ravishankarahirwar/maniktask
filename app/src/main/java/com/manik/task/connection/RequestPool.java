@@ -6,10 +6,10 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
 /**
- * @author  Chandni Patel
- * @author 12/02/2016.
+ * @author Ravishankar
+ * @version 1.0
+ * @since 16-03-2018
  */
-
 public class RequestPool {
 	private static RequestPool sInstance;
     private RequestQueue mRequestQueue;

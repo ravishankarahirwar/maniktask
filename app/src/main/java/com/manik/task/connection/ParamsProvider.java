@@ -5,9 +5,10 @@ import android.content.ContentValues;
 import java.util.HashMap;
 import java.util.Map;
 
-
 /**
- * Created by Chandni Patel
+ * @author Ravishankar
+ * @version 1.0
+ * @since 16-03-2018
  */
 
 public class ParamsProvider {

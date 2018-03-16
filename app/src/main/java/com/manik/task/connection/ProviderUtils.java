@@ -1,9 +1,10 @@
 package com.manik.task.connection;
 
 import com.android.volley.DefaultRetryPolicy;
-
 /**
- * Created by Chandni Patel
+ * @author Ravishankar
+ * @version 1.0
+ * @since 16-03-2018
  */
 
 public class ProviderUtils {
