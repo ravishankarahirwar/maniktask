@@ -47,6 +47,6 @@ public class ContactManager implements IContactManagerRole, RequestListener {
 
     @Override
     public void onError(int responseResult, int apiTag, String message, Response response) {
-
+        mContactFetchListner.onContactFatchedFailed(message);
     }
 }

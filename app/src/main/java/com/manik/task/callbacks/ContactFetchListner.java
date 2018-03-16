@@ -12,5 +12,5 @@ import java.util.List;
 
 public interface ContactFetchListner {
     void onContactFetchedSuccessfully(Contact[] contacts);
-    void onContactFatchedFailed(int errorCode);
+    void onContactFatchedFailed(String message);
 }

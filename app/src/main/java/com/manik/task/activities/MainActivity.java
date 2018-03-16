@@ -80,8 +80,8 @@ public class MainActivity extends BaseActivity  implements NavigationView.OnNavi
             }
 
             @Override
-            public void onContactFatchedFailed(int errorCode) {
-                Toast.makeText(mContext, "Error in fetching contacts", Toast.LENGTH_SHORT).show();
+            public void onContactFatchedFailed(String message) {
+                Toast.makeText(mContext, message, Toast.LENGTH_SHORT).show();
             }
         });
     }
